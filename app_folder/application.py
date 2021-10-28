@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from simple_recommender import get_recommendation
+from app_folder.simple_recommender import get_recommendation
 
 app = Flask(__name__)
 
